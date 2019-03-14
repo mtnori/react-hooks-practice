@@ -10,6 +10,7 @@ import UseEffectSample1 from './components/UseEffectSample1';
 import UseContextSample from './components/UseContextSample';
 import UseReducerSample from './components/UseReducerSample';
 import UseReducerSample2 from './components/UseReducerSample2';
+import UseMemoSample from './components/UseMemoSample';
 
 class App extends Component {
   render() {
@@ -39,6 +40,7 @@ class App extends Component {
         <UseContextSample />
         <UseReducerSample />
         <UseReducerSample2 initialMonth={10} />
+        <UseMemoSample n={1000} />
       </div>
     );
   }

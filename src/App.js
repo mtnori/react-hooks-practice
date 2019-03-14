@@ -8,6 +8,8 @@ import UseStateSample2 from './components/UseStateSample2';
 import UseStateSample4 from './components/UseStateSample4';
 import UseEffectSample1 from './components/UseEffectSample1';
 import UseContextSample from './components/UseContextSample';
+import UseReducerSample from './components/UseReducerSample';
+import UseReducerSample2 from './components/UseReducerSample2';
 
 class App extends Component {
   render() {
@@ -35,6 +37,8 @@ class App extends Component {
         <UseStateSample4 />
         <UseEffectSample1 />
         <UseContextSample />
+        <UseReducerSample />
+        <UseReducerSample2 initialMonth={10} />
       </div>
     );
   }
